@@ -46,6 +46,11 @@
 否则需要把路径填写完整。使用到的地名可以参考：
   http://www.ncl.ucar.edu/Document/HLUs/Classes/MapPlotData4_1_earth_4.shtml
 
+(5) 退出环境（可选）
+```
+  conda deactivate
+```
+
 ### （二）主要修正
 该地图数据中已经将台湾、钓鱼岛等归回中国，并将钓鱼岛命名 `"Senkaku Shoto"` 改为 `"Diaoyu Dao"`，
 具体修改的位置可查看 `doc.pdf` 文件。所以，使用完整中国地图只需设置 `"China"` ，
