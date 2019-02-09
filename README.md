@@ -1,25 +1,29 @@
 # Python-Chinamap
 由于```NCL (NCAR Command Language)```停止开发，所以把 `NCL-Chinamap (https://git.coding.net/huangynj/NCL-Chinamap.git)` 改为 `Python` 版本。
 使用的是 `NCL` 的 `Python` 版本绘图库 `PyNGL`。 
-根据全国地理信息资源目录服务系统提供的1:100万全国基础地理数据库 (http://www.webmap.cn/commres.do?method=result100W)，对
+根据全国地理信息资源目录服务系统提供的1:100万全国基础地理数据库 (http://www.webmap.cn/commres.do?method=result100W )
 对原```PyNGL```的中国地图数据 (与 `NCL` 一致) 进行修正，从而能够绘制国家规定的国界、台湾岛屿、南海诸岛及省界等。
 
 
 ###（一）使用方法
-安装相关的软件和库
-(1) 安装 Miniconda: https://conda.io/en/latest/miniconda.html
-(2) 创建 Python 环境和安装库
+#### (1) 安装 Miniconda
+  https://conda.io/en/latest/miniconda.html
+
+#### (2) 创建 Python 环境和安装库
 ```
   conda create -n ncl_to_python -c conda-forge xarray netcdf4 scipy pyngl pynio ncl wrf-python
   conda activate ncl_to_python
 ```
-(3) 使用 `git` 下载
+
+#### (3) 下载地图数据
+使用 `git` 下载
 ```
   git clone https://github.com/huangynj/Python-Chinamap.git
 ```
 或者直接点击下载按钮打包下载。
 
-(4) 运行例子：
+
+#### (4) 运行例子
 ```
   python plot_correct_Chinamap_with_SCS-subplot.py
 ```
@@ -46,7 +50,7 @@
 否则需要把路径填写完整。使用到的地名可以参考：
   http://www.ncl.ucar.edu/Document/HLUs/Classes/MapPlotData4_1_earth_4.shtml
 
-(5) 退出环境（可选）
+#### (5) 退出环境（可选）
 ```
   conda deactivate
 ```
