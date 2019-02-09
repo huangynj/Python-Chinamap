@@ -2,10 +2,9 @@
 由于```NCL (NCAR Command Language)```停止开发，所以把 `NCL-Chinamap` ( https://git.coding.net/huangynj/NCL-Chinamap.git ) 改为 `Python` 版本。
 使用的是 `NCL` 的 `Python` 版本绘图库 `PyNGL`。 
 根据全国地理信息资源目录服务系统提供的1:100万全国基础地理数据库 ( http://www.webmap.cn/commres.do?method=result100W )
-对原```PyNGL```的地图数据 (与 `NCL` 一致) 进行修正，从而能够绘制国家规定的国界、台湾岛屿、南海诸岛及省界等。
+对原```PyNGL```的地图数据 (与 `NCL` 一致) 进行修正，从而能够绘制国家规定的国界、台湾岛屿、南海诸岛及省界等.
 
-
-###（一）使用方法
+### （一）使用方法
 #### (1) 安装 Miniconda
   https://conda.io/en/latest/miniconda.html
 
