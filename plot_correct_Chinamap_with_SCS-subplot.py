@@ -149,7 +149,7 @@ adres.amJust                   = "BottomRight"
 plotnh = Ngl.add_annotation(map,map_nanhai,adres)
 
 #--- add Yangtze and Yellow rivers --- 
-plotrv = add_shapefile_outlines(wks, map, "./cnmap_NetCDF/river.nc", "blue", 3.0)
+plotrv = add_shapefile_outlines(wks, map, "./cnmap_NetCDF/rivers.nc", "blue", 3.0)
 
 #--- add City --- 
 plotct = add_shapefile_outlines(wks, map, "./cnmap_NetCDF/diquJie_polyline.nc", "grey")
